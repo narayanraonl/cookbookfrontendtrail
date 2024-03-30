@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 
-const useurl="http://localhost:4000"
+const useurl="https://cookbookbackendtrail.onrender.com"
 
 export default function Yourrecipe() {
   const [dishname, setDishname] = useState("");
