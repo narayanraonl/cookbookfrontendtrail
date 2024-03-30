@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Post from "./post";
 export default function Posts() {
   const [posts, setPosts] = useState([]);
-  const useurl="http://localhost:4000"
+  const useurl="https://cookbookbackendtrail.onrender.com"
   useEffect(() => {
     fetch(useurl+"/posts").then((response) => {
       response.json().then((posts) => {
