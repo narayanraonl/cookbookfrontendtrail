@@ -16,7 +16,7 @@ function App(){
             <Routes>
                 <Route path="/" element={ <Layout />} >
                     <Route index element={<Home/>}/>
-                    <Route path='/recipe' element={<Recipe />}/>
+                    <Route path='https://cookbookfrontendtrail.onrender.com/recipe' element={<Recipe />}/>
                     <Route path='/posts' element={<Posts />}/>
                     <Route path='/signin' element={<Signin />}/>
                     <Route path='/signup' element={<Signup />}/>
