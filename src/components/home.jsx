@@ -15,6 +15,7 @@ import cook1 from "./images/cook1.jpeg";
 import cook2 from "./images/cook2.webp";
 import cook4 from "./images/cook-4.jpeg";
 
+const frontendurl="https://cookbookfrontendtrail.onrender.com"
 export default function Home(){
     return (
         <div>
@@ -33,7 +34,7 @@ export default function Home(){
 
             <div class="about">
                 <div class="search">
-                <a href="/recipe"><img src={img2jpeg} alt="" />
+                <a href="https://cookbookfrontendtrail.onrender.com/recipe"><img src={img2jpeg} alt="" />
                     <p>Check out varities of dishes</p>
                 </a>     
 
